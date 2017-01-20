@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bankCatalogExample" />
         <module name="complete" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bankCatalogExample" target="1.8" />
       <module name="complete" target="1.8" />
       <module name="complete_main" target="1.8" />
       <module name="complete_test" target="1.8" />
