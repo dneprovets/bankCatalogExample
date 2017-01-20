@@ -35,5 +35,15 @@ Must read:
     
     https://spring.io/understanding/HATEOAS
 
+Examples:
+
+    http://localhost:8080/index.html [site]
+    
+    GET: 
+        http://localhost:8080/product [product models]
+        http://localhost:8080/business
+        http://localhost:8080/employee
+        http://localhost:8080/productVersion
+
 
 
