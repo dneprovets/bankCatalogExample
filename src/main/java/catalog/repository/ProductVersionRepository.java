@@ -1,11 +1,9 @@
-package hello.repository;
+package catalog.repository;
 
 
-import hello.domain.ProductVersion;
+import catalog.domain.ProductVersion;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-
-import java.util.List;
 
 /**
  * Created by mda on 1/19/17.

@@ -1,4 +1,4 @@
-package hello.domain;
+package catalog.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;

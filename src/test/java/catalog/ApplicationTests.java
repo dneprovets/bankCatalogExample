@@ -14,14 +14,12 @@
  * limitations under the License.
  */
 
-package hello;
+package catalog;
 
-import hello.domain.Business;
-import hello.repository.BusinessRepository;
-import hello.repository.EmployeeRepository;
-import hello.repository.ProductRepository;
-import hello.repository.ProductVersionRepository;
-import org.junit.Before;
+import catalog.repository.BusinessRepository;
+import catalog.repository.EmployeeRepository;
+import catalog.repository.ProductRepository;
+import catalog.repository.ProductVersionRepository;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
